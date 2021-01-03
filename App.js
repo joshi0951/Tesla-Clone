@@ -7,7 +7,14 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <CarItem></CarItem>
+      <CarItem 
+        name={"Model S"} 
+        image={require('./assets/images/ModelS.jpeg')} 
+        tagline={"Order online for "}
+        taglineCTA={"Touchless delivery"}
+        >
+
+      </CarItem>
       <StatusBar style="auto" />
     </View>
   );
